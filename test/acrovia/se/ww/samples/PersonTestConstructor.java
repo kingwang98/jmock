@@ -1,12 +1,11 @@
 package acrovia.se.ww.samples;
 
-import static org.junit.Assert.*;
-
-import mockit.Expectations;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 import mockit.Mock;
 import mockit.MockUp;
 import mockit.Mocked;
-
 import mockit.NonStrictExpectations;
 import mockit.Verifications;
 import mockit.VerificationsInOrder;
@@ -52,6 +51,7 @@ public class PersonTestConstructor {
 	@Test
 	public void testSetName(@Mocked final Person p) {
 
+		//enough to use only NonStrict
 		new NonStrictExpectations() {
 			// new Expectations() {
 			{

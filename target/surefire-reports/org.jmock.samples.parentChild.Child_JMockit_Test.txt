@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jmock.samples.parentChild.Child_JMockit_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
